@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&family=Righteous&family=Roboto&display=swap');
+
+
+@media screen and (min-width: 300px) and (max-width: 1599px) {}
+
+@media screen and (min-width:500px) and (max-width: 1600px) {
+    .card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 80%;
+        gap: 50px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .card {
+        font-family: 'Inter', sans-serif;
+        width: 230px;
+    }
+    .card img {
+        width: 230px;
+        height: 160px;
+        object-fit: contain;
+    }
+
+    .year-price-wrapper {
+        display: flex;
+        gap: 15px;
+    }
+    h4 {
+        font-weight: 200;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1601px) and (max-width: 3000px) {}

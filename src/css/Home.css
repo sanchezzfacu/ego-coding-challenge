@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&family=Righteous&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    width: 100%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1599px) {}
+
+@media screen and (min-width:500px) and (max-width: 1600px) {
+    .discover-all-models {
+        font-family: 'Inter', sans-serif;
+        margin: 50px 0;
+        margin-left: 130px;
+        font-size: 50px;
+        font-weight: 800;
+    }
+}
+
+@media screen and (min-width:1601px) and (max-width: 3000px) {}

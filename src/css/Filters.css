@@ -1,0 +1,14 @@
+@media screen and (min-width: 300px) and (max-width: 1599px) {}
+
+@media screen and (min-width:500px) and (max-width: 1600px) {
+    .filters-container {
+        display: flex;
+        width: 80%;
+        justify-content: space-evenly;
+        border-bottom: 1px solid #d4d3d3;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:1601px) and (max-width: 3000px) {}

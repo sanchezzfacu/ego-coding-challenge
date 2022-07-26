@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&family=Righteous&family=Roboto&display=swap');
+@media screen and (min-width: 300px) and (max-width: 1599px) {}
+
+@media screen and (min-width:500px) and (max-width: 1600px) {
+    nav {
+        border-bottom: 1px solid #cfcfcf;
+        width: 100%;
+        margin: 0;
+        height: 60px;
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        height: 60px;
+    }
+    
+    li {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        color: #000000e6;
+        font-weight: 400;
+    }
+    
+    .menu-section {
+        display: flex;
+        align-items: center;
+    }
+    
+    .first-section-navbar {
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        align-items: center;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width:1601px) and (max-width: 3000px) {}
