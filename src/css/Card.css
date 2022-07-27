@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&family=Righteous&family=Roboto&display=swap');
 
-
-@media screen and (min-width: 300px) and (max-width: 1599px) {}
-
-@media screen and (min-width:500px) and (max-width: 1600px) {
+@media screen and (min-width:0px) and (max-width: 1600px) {
     .card-wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -12,6 +9,7 @@
         gap: 50px;
         text-align: center;
         margin-top: 50px;
+        justify-content: center;
     }
     .card {
         font-family: 'Inter', sans-serif;
@@ -27,9 +25,14 @@
         display: flex;
         gap: 15px;
     }
-    h4 {
+    .card h4 {
         font-weight: 200;
+        margin-bottom: -25px;
         text-align: center;
+    }
+    a {
+        color: #000;
+        text-decoration: none;
     }
 }
 

@@ -8,11 +8,11 @@ function Navbar() {
         <nav>
             <ul>
                 <div className='first-section-navbar'>
-                    <li><img src={logo} alt="logo not found" height='40px' /></li>
-                    <li>
+                    <a href="/"><li><img src={logo} alt="logo not found" height='40px' /></li></a>
+                    <li className='model'>
                         <h3>Modelos</h3>
                     </li>
-                    <li>
+                    <li className='mode-sheet'>
                         <h3>Ficha de modelo</h3>
                     </li>
                 </div>

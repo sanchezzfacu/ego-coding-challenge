@@ -8,10 +8,7 @@ function Card({name, year, price, img}) {
     return (
         <div className='card'>
             <h2>{name}</h2>
-            <div className='year-price-wrapper'>
-                <h4>{year}</h4>
-                <h4>$ {price}</h4>
-            </div>
+            <h4>{year + ' | $ ' + price}</h4>
             <img src={img} alt="" />
         </div>
     )

@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&family=Righteous&family=Roboto&display=swap');
-@media screen and (min-width: 300px) and (max-width: 1599px) {}
+@media screen and (min-width: 300px) and (max-width: 669px) {
+    ul li h3 {
+        display: none;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
 
-@media screen and (min-width:500px) and (max-width: 1600px) {
+@media screen and (min-width:670px) and (max-width: 1600px) {
     nav {
         border-bottom: 1px solid #cfcfcf;
         width: 100%;
         margin: 0;
         height: 60px;
+        margin-bottom: 50px;
     }
     
     ul {
