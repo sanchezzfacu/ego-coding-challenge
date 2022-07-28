@@ -16,6 +16,7 @@ function Home() {
     }
 
     async function filterListWithSelect(e) {
+
         if(e.target.value === 'none') {
             let info = await fetch(modelListEndpoint)
             let modelList = await info.json()
@@ -42,9 +43,9 @@ function Home() {
 
     async function filterListWithButtons(e) {
         if(e.target.value === '1') {
+            console.log()
             let info = await fetch(modelListEndpoint + '?segment=1')
             let modelsFiltered = await info.json()
-            console.log(modelsFiltered)
             setList(modelsFiltered)
         } else if(e.target.value === '3'){
             let info = await fetch(modelListEndpoint + '?segment=3')
@@ -76,10 +77,9 @@ function Home() {
             {
                 list?.map(el => {
                     return (
-                        <a href={'/details/' + el.id}
-                         key={el.id}>
-                            <Card name={el.name} year={el.year} price={el.price} img={el.photo}/>
-                        </a>
+                        <div key={el.id}>
+                            <Card name={el.name} year={el.year} price={el.price} img={el.photo} id={el.id}/>
+                        </div>
                     )
                 })
             }

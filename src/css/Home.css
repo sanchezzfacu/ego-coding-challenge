@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&family=Righteous&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat&family=Raleway&family=Righteous&family=Roboto&display=swap');
 
 * {
     margin: 0;
     font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serk
 }
 
 html {
@@ -20,7 +21,6 @@ html {
 
 @media screen and (min-width:528px) and (max-width: 1600px) {
     .discover-all-models {
-        font-family: 'Inter', sans-serif;
         margin: 50px 0;
         margin-right: 50px;
         margin-left: 130px;
@@ -34,4 +34,12 @@ html {
     }
 }
 
-@media screen and (min-width:1601px) and (max-width: 3000px) {}
+@media screen and (min-width:1601px) and (max-width: 3000px) {
+    .discover-all-models {
+        margin: 60px 0;
+        margin-right: 50px;
+        margin-left: 180px;
+        font-size: 50px;
+        font-weight: 800;
+    }
+}

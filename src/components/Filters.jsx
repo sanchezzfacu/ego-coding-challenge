@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../css/Filters.css'
 function Filters({filterListWithButtonsBy, filterListWithSelectBy}) {
     return (
@@ -13,7 +13,7 @@ function Filters({filterListWithButtonsBy, filterListWithSelectBy}) {
 
             <select onChange={filterListWithButtonsBy} className='select-filters-type'>
                 <option value='' hidden>Filtrar por</option>
-                <option value=''>Todos</option> 
+                <option className='btn-selected' value=''>Todos</option> 
                 <option value='1'>Autos</option> 
                 <option value='3'>Pickups y Comerciales</option> 
                 <option value='4'>SUVs y Crossovers</option>

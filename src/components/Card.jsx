@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/Card.css'
 
-function Card({name, year, price, img}) {
+function Card({name, year, price, img, id}) {
     // if(price.toString().length >= 4 && price.toString().length <= 6) { //4 to 6 digit numbers price
 
     // }
@@ -10,6 +10,9 @@ function Card({name, year, price, img}) {
             <h2>{name}</h2>
             <h4>{year + ' | $ ' + price}</h4>
             <img src={img} alt="" />
+            <a href={'details/' + id}>
+                <button>Ver Modelo</button>
+            </a>
         </div>
     )
 }
