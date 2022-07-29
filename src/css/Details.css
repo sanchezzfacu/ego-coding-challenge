@@ -72,24 +72,20 @@
     .highlight-img-left {
         flex-direction: row-reverse;
         margin: auto;
-        width: 80%;
+        width: 85%;
         margin-bottom: 50px;
         flex-direction: column;
     }
     
     .highlight-img-right {
         margin: auto;
-        width: 80%;
+        width: 85%;
         margin-bottom: 50px;
         flex-direction: column;
     }
 
-    .highlight-img-left h1, .highlight-img-left h3, .highlight-img-right h1, .highlight-img-right h3 {
-        width: 70%;
-    }
-
     .highlight-img-right h1, .highlight-img-right h3 {
-        margin-left: 50px;
+        width: 100%;
     }
 
     .highlight-img-right img {
@@ -104,6 +100,7 @@
     .highlight-info h1 {
         font-size: 20px;
         margin-bottom: 16px;
+        margin-top: 10px;
         font-weight: 800;
         width: 100%;
     }

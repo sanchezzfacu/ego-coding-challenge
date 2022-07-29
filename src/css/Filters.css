@@ -108,7 +108,7 @@
     .select-filters-year-price {
         border: none;
         -moz-appearance: none;
-        width: 140px;
+        width: auto;
         background-color: #fff;
         border-radius: 10px;
         display: flex;
